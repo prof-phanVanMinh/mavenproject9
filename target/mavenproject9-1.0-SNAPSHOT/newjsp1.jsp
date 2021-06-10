@@ -21,6 +21,6 @@
     </head>
     <body>
         <p>get isSecure: <%= request.getInputStream()%></p>
-        <p>Phan van minh</p>
+        
     </body>
 </html>
