@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QuickServlet</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div style="text-align: center;border: 1px red solid; width: 50%;margin-left:300px;"> 
+            <h1>HOME PAGE</h1>
+            <form action="QuickServlet" method="get" target="_self">
+                Name: <input type="text" name="name"/><p>
+                    Ngon ngu:  <label>English</label><input type="checkbox" name="languages" value="English" />
+                    VietNamese<input type="checkbox" name="languages" value="Vietnamese"/>
+                    Rusian <input type="checkbox" name ="languages" value="Rusian"/><p>
+                    Gender: Nam:<input type="radio" name="gender" value="nam"/>
+                    Nu:<input type="radio" name="gender" value="nu"/><p>
+                    Job Category:
+                    <select name="jobcat">
+                        <option value="Toan">Toan</option>
+                        <option value="Sinh hoc">Sinh hoc</option>
+                        <option value="IT">IT</option>
+
+                    </select>  
+                    <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
